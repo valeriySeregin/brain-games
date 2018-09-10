@@ -1,0 +1,37 @@
+{
+  "name": "brain-games-valser",
+  "version": "0.0.2",
+  "description": "brain games",
+  "main": "",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeriySeregin/project-lvl1-s344.git"
+  },
+  "keywords": [
+    "hexlet",
+    "brain games"
+  ],
+  "author": "Valeriy Seregin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeriySeregin/project-lvl1-s344/issues"
+  },
+  "homepage": "https://github.com/valeriySeregin/project-lvl1-s344#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
