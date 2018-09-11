@@ -4,7 +4,10 @@
 <a href="https://travis-ci.org/valeriySeregin/project-lvl1-s344"><img src="https://travis-ci.org/valeriySeregin/project-lvl1-s344.svg?branch=master"></a>
 
 ## installing
-<a href="https://asciinema.org/a/rzgGWQWwRy6XKWylrNOUNcBSu" target="_blank"><img src="https://asciinema.org/a/rzgGWQWwRy6XKWylrNOUNcBSu.png" /></a>
+<a href="https://asciinema.org/a/86FkSsOgOy9aPP3IERdxNTTOC" target="_blank"><img src="https://asciinema.org/a/86FkSsOgOy9aPP3IERdxNTTOC.png" /></a>
 
 ## brain-even gaming
-<a href="https://asciinema.org/a/T42abX5tFKcXE97QLRBXTqful" target="_blank"><img src="https://asciinema.org/a/T42abX5tFKcXE97QLRBXTqful.png" /></a>
+<a href="https://asciinema.org/a/C2PfGOPHOLL10egV2qMM5o73M" target="_blank"><img src="https://asciinema.org/a/C2PfGOPHOLL10egV2qMM5o73M.png" /></a>
+
+## brain-calc gaming
+<a href="https://asciinema.org/a/RXiDnIGSoLvT2MnHrFg3WbBdM" target="_blank"><img src="https://asciinema.org/a/RXiDnIGSoLvT2MnHrFg3WbBdM.png" /></a>
