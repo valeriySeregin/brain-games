@@ -2,7 +2,7 @@ import engine from '..';
 import randomNumber from '../utils';
 import { cons } from 'hexlet-pairs';
 
-const description = 'What is the result of the expression?\n';
+const description = 'What is the result of the expression?';
 
 const gameData = () => {
   const firstOperand = randomNumber(1, 20);

@@ -2,19 +2,18 @@ import engine from '..';
 import randomNumber from '../utils';
 import { cons } from 'hexlet-pairs';
 
-const description = 'Find the greatest common divisor of given numbers.\n';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const getGreatestCommontDivisor = (num1, num2) => {
-  let a = num1;
-  let b = num2;
-  while (a !== b) {
-    if (a > b) {
-      a -= b;
-    } else {
-      b -= a;
-    }
+  if (num1 === num2) {
+    return num1;
   }
-  return a;
+  if (num1 > num2) {
+    const newNum1 = num1 - num2;
+    return getGreatestCommontDivisor(newNum1, num2);
+  }
+  const newNum2 = num2 - num1;
+  return getGreatestCommontDivisor(num1, newNum2);
 };
 
 const gameData = () => {

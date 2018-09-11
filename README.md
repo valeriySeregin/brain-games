@@ -4,13 +4,16 @@
 <a href="https://travis-ci.org/valeriySeregin/project-lvl1-s344"><img src="https://travis-ci.org/valeriySeregin/project-lvl1-s344.svg?branch=master"></a>
 
 ## installing
-<a href="https://asciinema.org/a/5WJW1xBxP23FhNoEVWohHIYI2" target="_blank"><img src="https://asciinema.org/a/5WJW1xBxP23FhNoEVWohHIYI2.png" /></a>
+<a href="https://asciinema.org/a/jTCg3ZbgxRmBAzq6JyiGdvVzU" target="_blank"><img src="https://asciinema.org/a/jTCg3ZbgxRmBAzq6JyiGdvVzU.png" /></a>
 
-## brain-even gaming
+## brain-even
 <a href="https://asciinema.org/a/C2PfGOPHOLL10egV2qMM5o73M" target="_blank"><img src="https://asciinema.org/a/C2PfGOPHOLL10egV2qMM5o73M.png" /></a>
 
-## brain-calc gaming
+## brain-calc
 <a href="https://asciinema.org/a/RXiDnIGSoLvT2MnHrFg3WbBdM" target="_blank"><img src="https://asciinema.org/a/RXiDnIGSoLvT2MnHrFg3WbBdM.png" /></a>
 
-## brain-gcd gaming
+## brain-gcd
 <a href="https://asciinema.org/a/jghYjjHRxgPC2stFc1dTfWY0x" target="_blank"><img src="https://asciinema.org/a/jghYjjHRxgPC2stFc1dTfWY0x.png" /></a>
+
+## brain-balance
+<a href="https://asciinema.org/a/N7bmJ2eobAMkFqEL1F4SW9QIs" target="_blank"><img src="https://asciinema.org/a/N7bmJ2eobAMkFqEL1F4SW9QIs.png" /></a>
