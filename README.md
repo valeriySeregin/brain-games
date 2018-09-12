@@ -4,7 +4,7 @@
 <a href="https://travis-ci.org/valeriySeregin/project-lvl1-s344"><img src="https://travis-ci.org/valeriySeregin/project-lvl1-s344.svg?branch=master"></a>
 
 ## installing
-<a href="https://asciinema.org/a/WRdCtU2WrIVCokhhXXQRleHHD" target="_blank"><img src="https://asciinema.org/a/WRdCtU2WrIVCokhhXXQRleHHD.png" /></a>
+<a href="https://asciinema.org/a/jpdNAjDJCGPm0odxQg80P8VaJ" target="_blank"><img src="https://asciinema.org/a/jpdNAjDJCGPm0odxQg80P8VaJ.png" /></a>
 
 ## brain-even
 <a href="https://asciinema.org/a/C2PfGOPHOLL10egV2qMM5o73M" target="_blank"><img src="https://asciinema.org/a/C2PfGOPHOLL10egV2qMM5o73M.png" /></a>
@@ -20,3 +20,6 @@
 
 ## brain-progression
 <a href="https://asciinema.org/a/tCtlUHG8882KWfYNsszB3Hsea" target="_blank"><img src="https://asciinema.org/a/tCtlUHG8882KWfYNsszB3Hsea.png" /></a>
+
+## brain-prime
+<a href="https://asciinema.org/a/euAmsHI54JwjegDpLZVvlMcub" target="_blank"><img src="https://asciinema.org/a/euAmsHI54JwjegDpLZVvlMcub.png" /></a>
