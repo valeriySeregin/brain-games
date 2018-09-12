@@ -1,19 +1,22 @@
-import engine from '..';
+import generateGameSequence from '..';
 import randomNumber from '../utils';
 import { cons } from 'hexlet-pairs';
 
 const description = 'Is this number prime?';
 
+const normalizeNumber = num => Math.abs(num);
+
 const isPrime = (number) => {
-  if (number === 1) {
+  const normalizedNumber = normalizeNumber(number);
+  if (normalizedNumber === 1) {
     return false;
   }
 
   const iter = (divisor) => {
-    if (divisor === number) {
+    if (divisor === normalizedNumber) {
       return true;
     }
-    if (number % divisor !== 0) {
+    if (normalizedNumber % divisor !== 0) {
       return iter(divisor + 1);
     }
 
@@ -24,9 +27,9 @@ const isPrime = (number) => {
 };
 
 const gameData = () => {
-  const question = randomNumber(1, 50);
+  const question = randomNumber(-50, 50);
   const answer = isPrime(question) ? 'yes' : 'no';
   return cons(question, answer);
 };
 
-export default () => engine(description, gameData);
+export default () => generateGameSequence(description, gameData);

@@ -1,4 +1,4 @@
-import engine from '..';
+import generateGameSequence from '..';
 import randomNumber from '../utils';
 import { cons } from 'hexlet-pairs';
 
@@ -11,4 +11,4 @@ const gameData = () => {
   return cons(question, answer);
 };
 
-export default () => engine(description, gameData);
+export default () => generateGameSequence(description, gameData);
