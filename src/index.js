@@ -1,11 +1,21 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
 
-const gameRounds = 3;
-
 export default (description, gameData) => {
-  console.log('Welcome to the Brain Games!');
+  console.log();
   console.log(description);
+  console.log();
+  const gameRounds = Number(readlineSync.question('How many rounds would you like to play? '));
+
+  if (gameRounds > 10) {
+    console.log('That\'s too much! Recommended no more than 10.');
+    return;
+  }
+  if (gameRounds === '' || gameRounds === 0) {
+    console.log('Maybe next time...');
+    return;
+  }
+
   console.log();
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!\n`);
@@ -15,18 +25,18 @@ export default (description, gameData) => {
       console.log(`Congratulations, ${name}!`);
       return;
     }
-    const getQuestionAndAnswer = gameData();
-    console.log(`Question: ${car(getQuestionAndAnswer)}`);
+    const questionAndAnswer = gameData();
+    console.log(`Question: ${car(questionAndAnswer)}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
-    if (userAnswer === cdr(getQuestionAndAnswer)) {
+    if (userAnswer === cdr(questionAndAnswer)) {
       console.log('Correct!');
       game(counter + 1);
       return;
     }
-    console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${cdr(getQuestionAndAnswer)}'.`);
+    console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${cdr(questionAndAnswer)}'.`);
     console.log(`Let's try again, ${name}!`);
   };
 
-  return game(0);
+  game(0);
 };
